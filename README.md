@@ -3,7 +3,7 @@
 ![MIT license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Description
-This tech
+This tech blog allows you to make and account and make and delete posts. You can also view posts from other users. 
 
 ## Table of Contents
 - [Installation](#installation)
