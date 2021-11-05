@@ -1,0 +1,14 @@
+a {
+    color: rgb(255, 198, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(211, 143, 211);
+}
+
+.project {
+    padding: 8px 2px 2px 2px;
+    background-color: rgb(129, 129, 129);
+    border-radius: 10px;
+}
