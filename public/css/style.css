@@ -25,6 +25,7 @@ a:hover {
     background-color: rgb(129, 129, 129);
     padding-top: 20px;
     padding-bottom: 12px;
+    border-radius: 15px;
 }
 
 .login-button, .signup-button {
