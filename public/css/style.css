@@ -94,6 +94,21 @@ textarea {
     margin: 0;
 }
 
+.post-container {
+    background-color: var(--grey-background);
+    border-radius: 8px;
+    padding-top: 8px;
+    /* margin: 12px 8px; */
+    color: white;
+}
+
+.post-container h2 {
+    background-color: rgb(255, 198, 255);
+    border-radius: 8px;
+    padding: 2px 20px 6px 20px;
+    color: var(--grey-background);
+}
+
 @media screen and (max-width: 400px) {
     .input-fields .form-group {
         padding-right: 18%;
