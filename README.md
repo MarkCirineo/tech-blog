@@ -3,20 +3,29 @@
 ![MIT license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## Description
-This tech blog allows you to make and account and make and delete posts. You can also view posts from other users. 
+This full-stack tech blog allows users to create an account and log in. Once logged in users can create, update and delete their own blog posts via authentication. With or without an account users are able to view blog posts from other users. 
 
 ## Table of Contents
-- [Installation](#installation)
 - [Usage](#usage)
+- [Installation](#installation)
 - [License](#license)
 - [How To Contribute](#how-to-contribute)
 - [Tests](#tests)
 - [Questions](#questions)
-## Installation
-You can download the files from the GitHub repo.
 
 ## Usage
 You can visit the website [here](https://rocky-inlet-23725.herokuapp.com/)
+
+![screenshot of the homepage](./assets/images/homepage.png)
+
+## Installation
+The program can be run through the above link. Alternatively, to run this application locally you will need to do the following:
+- Clone the repository to use the files locally
+- Run "npm i" in a terminal at the root directory level to set up all of the dependencies (You need to have Node.js installed on your machine)
+- Initialize your database by running the "schema.sql" file with MySQL
+- Populate the database by running "node seeds/seed.js" in your terminal
+- Run "npm start" to start the application
+- Go to http://localhost:3001/ in your browser to use the application
 
 ## License
 MIT License
